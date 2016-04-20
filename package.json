@@ -1,0 +1,21 @@
+{
+  "name": "libsodium-native",
+  "version": "1.0.0",
+  "dependencies": {
+	"nan": "^2"
+  },
+  "devDependencies": {
+  },
+  "license": "LicenseRef-LICENSE",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wearezeta/libsodium-native"
+  },
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build"
+  },
+  "homepage": "https://github.com/wearezeta/libsodium-native",
+  "main": "build/Release/sodium-native.node"
+}
